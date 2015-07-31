@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body{
+	margin:0;
+	padding: 0;
+	background-color: black;
+	font-family: 'lucida grande', sans-serif;
+}
+
+#header{
+	margin: 0 auto;
+	width: 640px;
+	height: 250px;
+	background:	transparent url('../pict/images.jpg') top left no-repeat;
+	background-size: 100% 100%;
+}
+
+.titlu_site{
+	font-family: 'Indie Flower' , cursive;
+	font-size: 30px;
+	color: white;
+	left: 20px;
+	position: relative;
+	top: 210px;
+}
+
+#container{
+	background-color: grey;
+	margin: 0 auto;
+	width: 670px;
+	padding: 15px 0 0 0;
+}
+
+#content{
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#menu{
+	height: 25px;
+	background-color: grey;
+	margin: 0 15px;
+	padding: 5px 0;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0px;
+	height: 23px;
+}
+
+#menu ul li{
+	list-style: none;
+	display: inline;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited{
+	color: white;
+	padding: 10px 7px 10px 7px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu ul li a:hover{
+	color: white;
+	background-color: orange;
+	height: 50;
+}
+
+#col_st{
+	margin: 0;
+	padding: 2px;
+	width: 50%;
+	float: left;
+}
+
+#col_dr{
+	margin: 0;
+	width: 48%;
+	padding: 2px;
+	float: left;
+}
+#col_clear{
+	clear: both;
+}
